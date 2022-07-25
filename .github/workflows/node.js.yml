@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: yarn install
-    - run: yarn run build:esm --if-present
-    - run: yarn run build:cjs --if-present
+    - run: yarn run build:esm
+    - run: yarn run build:cjs
